@@ -1,16 +1,70 @@
-# React + Vite
+# 🎮 Mini Game Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun React-based collection of mini-games built using **React + Tailwind CSS + React Router**.  
+This project includes 3 simple yet interactive games — all playable directly in the browser!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Games Included
 
-## React Compiler
+### 🪨 1. Rock Paper Scissors
+Classic game where you compete against the computer.  
+- ⏱️ 10-second timer per round  
+- 🧩 First to 3 points wins  
+- 🖐️ Click on the emoji buttons (✊ ✋ ✌️) to play
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### 🎯 2. Target Practice
+Test your reaction speed and accuracy.  
+- 🕹️ Random targets appear on screen every second  
+- ⏰ 30 seconds total to hit as many as possible  
+- 💯 Accuracy calculated at the end of the game
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 🃏 3. Memory Card Flip
+Match the pairs of emoji cards!  
+- 🎴 8 pairs of emojis shuffled each time  
+- 🧮 Tracks your total moves  
+- 🏆 Win when all pairs are matched  
+
+---
+
+## 🚀 Tech Stack
+
+- **React** – Component-based frontend  
+- **React Router DOM** – For navigation between games  
+- **Tailwind CSS** – For styling and responsive UI  
+- **JavaScript (ES6+)** – Core logic and interactivity  
+
+---
+
+## 📂 Folder Structure
+
+src/
+├── App.jsx
+├── Dashboard.jsx
+├── RPS.jsx
+├── Target.jsx
+├── Memory.jsx
+├── index.css
+└── main.jsx
+
+
+---
+
+## 🛠️ Setup & Installation
+
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/yourusername/react-mini-game-hub.git
+   cd react-mini-game-hub
+2. **Install Dependencies**
+    ```bash
+    npm install
+3. **Run Development server**
+    ```bash
+    npm run dev
+4. **Open Browser At**
+    http://localhost:5173/
