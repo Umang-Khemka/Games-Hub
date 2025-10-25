@@ -41,7 +41,7 @@ Match the pairs of emoji cards!
 ---
 
 ## 📂 Folder Structure
-
+```
 src/
 ├── App.jsx
 ├── Dashboard.jsx
@@ -50,6 +50,7 @@ src/
 ├── Memory.jsx
 ├── index.css
 └── main.jsx
+```
 
 
 ---
