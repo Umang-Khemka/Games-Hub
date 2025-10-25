@@ -58,16 +58,7 @@ export default function Memory() {
       <p className="mb-4 text-lg md:text-xl">Moves: {moves}</p>
 
       <div
-        className="
-          grid 
-          grid-cols-4 
-          sm:grid-cols-5 
-          md:grid-cols-6 
-          gap-3 
-          sm:gap-4 
-          md:gap-5
-          place-items-center
-        "
+        className="grid grid-cols-4 gap-4 max-w-2xl mx-auto"
       >
         {cards.map((card, index) => {
           const isFlipped = flipped.includes(index) || matched.includes(index);
